@@ -1,4 +1,7 @@
 # GeoPandas-Demo
+
+See the Jupyter Notebook for a brief overview of the GeoPandas library for Python and a demonstration of how we used its capabilities for a project. 
+
 Below is a description of the functions found in the spatial_analysis_function.py file. These functions may be used to speed up spatial intersections.
 
 __splithazard__(*hazard_raw, threshold*): this function uses the katana function written in the katana.py file to take the large polygons included in the various hazard files and splits them into smaller polygons to speed up the analysis. Returns a geodataframe of the smaller polygons.
